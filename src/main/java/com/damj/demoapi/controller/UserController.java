@@ -20,10 +20,11 @@ public class UserController {
         this.userService = userService;
     }
    
-   
     @GetMapping ("/id")
     public String getAllUsersId() {
-        return "respuesta user especifico";
+        return "Respuesta por cambios del 10dic a las 10:37"
+        		+ "Y adicional en esta modificacion al código"
+        		+ "agrego la funcion para que filtre por giro";
     }
 
     @GetMapping
