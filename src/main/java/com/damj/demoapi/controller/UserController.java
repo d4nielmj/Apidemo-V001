@@ -22,7 +22,7 @@ public class UserController {
    
     @GetMapping ("/id")
     public String getAllUsersId() {
-        return "Respuesta por cambios del 10dic a las 10:37"
+        return "Respuesta por cambios del 23dic24 a las 03:28pm"
         		+ "Y adicional en esta modificacion al código"
         		+ "agrego la funcion para que filtre por giro";
     }
